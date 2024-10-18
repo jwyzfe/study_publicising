@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .container-wrapper {
+            display: flex; /* flexbox를 사용하여 가로로 배치 */
+            justify-content: space-between; /* 두 요소 사이에 간격 */
+            padding: 20px;
+        }
+
+        .starter-projects, .guides {
+            width: 45%; /* 각 영역의 너비 설정 */
+            padding: 10px;
+            
+            overflow-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
+        .starter-projects, .guides {
+            width: 45%; /* 각 영역의 너비 설정 */
+            padding: 10px;
+            
+            overflow-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
+        }
+
+        h2 {
+             /* 제목 가운데 정렬 */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container p-5 m-5">
+        
+        <div>
+            <h2>Starter template</h2>
+            
+        </div>
+        <hr>
+
+        
+        <div>
+            <h2>Get started with Bootstrap</h2>
+            <p>Quickly and easily get started with Bootstrap's compiled, production-ready files with this barebones example featuring some basic HTML and helpful links. Download all our examples to get started.</p>
+        </div>
+        <button type="button" class="btn btn-primary">Download examples</button>
+        <hr>
+
+        
+        <div class="container-wrapper">
+            
+
+            <div class="starter-projects">
+                <h2>Starter Projects</h2>
+                <p>Ready to go beyond the starter template? Check out these open source projects that you can quickly duplicate to a new GitHub repository.</p>
+                <ul>
+                    <li><a href="https://github.com/twbs/examples/tree/main/icons-font">Bootstrap npm starter</a></li>
+                    <li><a href="https://github.com/twbs/examples/tree/main/parcel">Bootstrap Parcel starter</a></li>
+                    <li><a href="https://github.com/twbs/examples/tree/main/vite">Bootstrap vite starter</a></li>
+                    <li><a href="https://github.com/twbs/examples/tree/main/webpack">Bootstrap Webpack starter</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="guides">
+                <h2>Guides</h2>
+                <p>Read more detailed instructions and documentation on using or contributing to Bootstrap.</p>
+                <ul>
+                    <li><a href="https://github.com/twbs/examples/tree/main/icons-font">Bootstrap npm starter</a></li>
+                    <li><a href="https://github.com/twbs/examples/tree/main/parcel">Bootstrap Parcel starter</a></li>
+                    <li><a href="https://github.com/twbs/examples/tree/main/vite">Bootstrap vite starter</a></li>
+                    <li><a href="https://github.com/twbs/examples/tree/main/webpack">Bootstrap Webpack starter</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
